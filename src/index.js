@@ -3,7 +3,7 @@ import './index.css'
 
 const Booklist = () => {
   return (
-    <section class="booklist">
+    <section className="booklist">
         <Book />
         <Book />
         <Book />
@@ -20,7 +20,7 @@ const Booklist = () => {
 
 const Book = () => {
   return (
-    <article class="book">
+    <article className="book">
       <Image></Image>
       <Title></Title>
       <Author></Author>
@@ -31,9 +31,8 @@ const Book = () => {
 const Image = () => <img src="https://images-na.ssl-images-amazon.com/images/I/81iAADNy2NL._AC_UL200_SR200,200_.jpg" 
       alt="Book" />
 
-const Author = () => <h4>James Clear</h4>
-
 const Title = () => <h1>Atomic Habits: An Easy & Proven Way to Build Good Habits & Break Bad Ones')</h1>
+const Author = () => <h4 style={{color: '#617D98', fontSize: '0.75rem', marginTop: '0.25rem'}}>James Clear</h4>
 
 ReactDom.render(
   <Booklist />, document.getElementById('root')
