@@ -30,6 +30,7 @@ body {
 
 @media screen and (min-width:768px){
     .booklist {
-        grid-template-columns: repeat(3, 1fr);
+        /* Repeat flex column 3(1) times per row */
+        grid-template-columns: repeat(3, 1fr); 
     }
 }
