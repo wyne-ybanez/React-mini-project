@@ -9,7 +9,8 @@ const Book = ({ img, title, author }) => {
         alert('hello world');
     };
     const complexExample = (author) => {
-        console.log(author);
+        alert(`The author is: ${author}`);
+        console.log(`Author: ${author}`);
     };
     return (
     <article
